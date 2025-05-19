@@ -12,7 +12,7 @@ img {
 }
 
 body {
-    font-family: "proxima-soft", sans-serif;
+    font-family: proxima-soft;
 }
 
 h1 {
@@ -20,7 +20,7 @@ h1 {
     margin-bottom: 0.5rem;
 }
 nav ul li {
-    font-family: "zubilo-black", sans-serif;
+    font-family: zubilo-black;
     font-size: 1.2rem;
     margin-right: 1rem;
     margin-bottom: 0.5rem;
@@ -47,7 +47,7 @@ aside {
     margin: 0 0 1em 1em;
 }
 p {
-    font-family: "proxima-soft", sans-serif;
+    font-family: proxima-soft;
     color: #000;
     font-size: 1em;
     line-height: 1.2rem;
@@ -58,12 +58,12 @@ h2 {
     line-height: 1.2em;
     font-size: 2.5rem;
     color: #526452;
-    font-family: "zubilo-black", sans-serif;
+    font-family: zubilo-black;
 }
 
 figcaption {
     margin: 0 0 1rem 0;
-    font-family: "proxima-soft", sans-serif;
+    font-family: proxima-soft;
     line-height: 1.3rem;
     font-size: 0.8rem;
     font-style: italic;
@@ -91,7 +91,7 @@ footer {
     background-color: #B1CEDA;
     color: #504B43;
     padding: 0.5rem;
-    font-family: "proxima-soft", sans-serif;
+    font-family: proxima-soft;
     box-sizing: border-box;
 }
 
