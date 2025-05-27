@@ -99,6 +99,7 @@ div.photogallery {
     max-width: 60em;
     margin: auto;
     padding: 1em;
+    grid-column: span 2;
 }
 
 div.photogallery body {
