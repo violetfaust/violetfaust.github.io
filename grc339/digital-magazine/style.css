@@ -95,6 +95,116 @@ footer {
     box-sizing: border-box;
 }
 
+div.photogallery {
+    max-width: 60em;
+    margin: auto;
+    padding: 1em;
+}
+
+div.photogallery body {
+    font-family: sans-serif;
+	line-height: 1.4em;
+	color: #222;
+	box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+}
+
+div.photogallery article {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 55%;
+    margin: auto;
+}
+
+div.photogallery figcaption {
+    font-size: 1rem;
+    color: #000;
+}
+
+div.photogallery figure {
+        margin: auto;
+        width: 100%;
+        position: absolute;
+        opacity: 0;
+        transition: opacity 0.5s;
+}
+
+div.photogallery nav {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 0.2em;
+}
+
+div.photogallery input {
+    display: none;
+}
+
+input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
+input:nth-of-type(2):checked ~ main figure:nth-of-type(2),
+input:nth-of-type(3):checked ~ main figure:nth-of-type(3),
+input:nth-of-type(4):checked ~ main figure:nth-of-type(4),
+input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
+input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
+input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
+    opacity: 1;
+}
+
+main.newsletter {
+    grid-column: span 2;
+}
+
+section.personal-info ul li input[type="text"],
+section ul li input[type="email"],
+section ul li input[type="tel"],
+section ul li select {
+	flex: 4 0 22em;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section.personal-info ul li {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 1em;
+}
+
+section.personal-info ul li label {
+	flex: 0 0 8em;
+}
+
+section.subscribe ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+main.newsletter ul li {
+	flex: 1 0 15em;
+}
+
+main.newsletter section {
+    background: #eee;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+main.newsletter ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+
+button {
+    background-color:#B1CEDA;
+    color:#000;
+    border: none;
+    padding: 0.5em;
+    display: block;
+    margin: auto;
+}
+
 
 @media screen and (min-width: 40em) {
     nav ul li {
