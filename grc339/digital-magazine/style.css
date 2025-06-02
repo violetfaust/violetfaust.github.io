@@ -294,3 +294,53 @@ button {
         flex: 0 0 4em;
     }
 }
+
+@media screen and (prefers-color-scheme: dark) {
+    body {
+        background-color: rgb(36,36,36);
+        color: #fff;
+    }
+    p, figcaption {
+        color: #fff;
+    }
+
+    a {
+        color: #B1CEDA;
+    }
+
+    h1 {  
+        background-image: url("threads-logo-dark.svg");  
+        background-repeat: no-repeat;  
+        background-size: contain;  
+    }
+
+    h1 img {  
+        opacity: 0;  
+    }
+
+    h2, h3 {
+        color: #E7E6D0
+    }
+    
+    nav ul li a:hover {
+        color:#E7E6D0;
+        transition: color 0.3s;
+    }
+
+    div.photogallery figcaption {
+        color: #fff;
+    }
+
+    footer {
+        background-color: #526452;
+        color: #fff;
+    }
+
+    aside {
+        background-color: #504B43;
+    }
+
+    main.newsletter section {
+        background-color: #504B43;
+    }
+}
